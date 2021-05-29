@@ -1,2 +1,2 @@
 # Infotech
-software to Colombian security companies
+software for Colombian security companies
