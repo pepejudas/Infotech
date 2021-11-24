@@ -1,0 +1,10 @@
+notas para la instalacion
+
+linux
+instalar clase pear de php
+instalar clase adicional OLE su "pear install OLE-1.0.0RC1";
+ 
+Windows
+cambiar a protocolo de seguridad al poner sobre servidor en linea ej: "https://infotech.seguridadsuper.com"
+descomentar lineas de funciones especiales y borrar luego este archivo
+

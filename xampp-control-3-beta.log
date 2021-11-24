@@ -1,0 +1,201 @@
+11:51:32 p.m.  [main] 	Initializing main
+11:51:32 p.m.  [main] 	Windows version: 6.1 (build 7600)
+11:51:32 p.m.  [main] 	Xampp version: 1.7.7
+11:51:32 p.m.  [main] 	Control center version: 3.0.2 [ Compiled: Jul 21th 2011 - build #1 ]
+11:51:32 p.m.  [main] 	Running as admin - good!
+11:51:32 p.m.  [main] 	Working with basedir: "c:\infotech\"
+11:51:32 p.m.  [main] 	Initializing moduls
+11:51:32 p.m.  [main] 	Starting check-timer
+11:51:51 p.m.  [main] 	Deinitializing moduls
+11:51:51 p.m.  [main] 	Deinitializing main
+
+6:00:39 AM  [main] 	Initializing main
+6:00:39 AM  [main] 	Windows version: 6.1 (build 7601) - Service Pack 1
+6:00:39 AM  [main] 	Xampp version: 1.7.7
+6:00:39 AM  [main] 	Control center version: 3.0.2 [ Compiled: Jul 21th 2011 - build #1 ]
+6:00:39 AM  [main] 	Running not as admin! This will work for all application stuff, but whenever you do
+6:00:39 AM  [main] 	something with services there will be a security dialogue! So think about running
+6:00:39 AM  [main] 	this application with administrator rights!
+6:00:39 AM  [main] 	Working with basedir: "c:\infotech\"
+6:00:39 AM  [main] 	Initializing moduls
+6:00:39 AM  [apache] 	"c:\infotech\apache\bin\httpd.exe" seems to be running on port 80?
+6:00:39 AM  [apache] 	"c:\infotech\apache\bin\httpd.exe" seems to be running on port 443?
+6:00:39 AM  [mysql] 	"c:\infotech\mysql\bin\mysqld.exe" seems to be running on port 3306?
+6:00:39 AM  [main] 	Starting check-timer
+6:02:28 AM  [apache] 	Stopping apache (PID: 4684)
+6:02:28 AM  [apache] 	Stopping apache (PID: 1688)
+6:02:28 AM  [apache] 	Status change detected: stopped
+6:02:53 AM  [apache] 	Starting apache app...
+6:02:53 AM  [apache] 	Status change detected: running
+2:23:31 PM  [main] 	Deinitializing moduls
+2:23:31 PM  [main] 	Deinitializing main
+
+5:45:19 AM  [main] 	Initializing main
+5:45:19 AM  [main] 	Windows version: 6.1 (build 7601) - Service Pack 1
+5:45:19 AM  [main] 	Xampp version: 1.7.7
+5:45:19 AM  [main] 	Control center version: 3.0.2 [ Compiled: Jul 21th 2011 - build #1 ]
+5:45:19 AM  [main] 	Running not as admin! This will work for all application stuff, but whenever you do
+5:45:19 AM  [main] 	something with services there will be a security dialogue! So think about running
+5:45:19 AM  [main] 	this application with administrator rights!
+5:45:19 AM  [main] 	Working with basedir: "c:\infotech\"
+5:45:19 AM  [main] 	Initializing moduls
+5:45:19 AM  [main] 	Starting check-timer
+5:45:23 AM  [apache] 	Starting apache app...
+5:45:23 AM  [apache] 	Status change detected: running
+5:45:30 AM  [mysql] 	Starting mysql app...
+5:45:31 AM  [mysql] 	Status change detected: running
+6:02:28 AM  [apache] 	Status change detected: stopped
+6:02:53 AM  [apache] 	Status change detected: running
+2:23:31 PM  [main] 	Deinitializing moduls
+2:23:31 PM  [main] 	Deinitializing main
+
+8:03:42 AM  [main] 	Initializing main
+8:03:42 AM  [main] 	Windows version: 6.1 (build 7601) - Service Pack 1
+8:03:42 AM  [main] 	Xampp version: 1.7.7
+8:03:42 AM  [main] 	Control center version: 3.0.2 [ Compiled: Jul 21th 2011 - build #1 ]
+8:03:42 AM  [main] 	Running not as admin! This will work for all application stuff, but whenever you do
+8:03:42 AM  [main] 	something with services there will be a security dialogue! So think about running
+8:03:42 AM  [main] 	this application with administrator rights!
+8:03:42 AM  [main] 	Working with basedir: "c:\infotech\"
+8:03:42 AM  [main] 	Initializing moduls
+8:03:42 AM  [main] 	Starting check-timer
+8:03:44 AM  [apache] 	Starting apache app...
+8:03:45 AM  [apache] 	Status change detected: running
+8:03:45 AM  [mysql] 	Starting mysql app...
+8:03:46 AM  [mysql] 	Status change detected: running
+4:03:29 PM  [main] 	Deinitializing moduls
+4:03:29 PM  [main] 	Deinitializing main
+
+7:38:55 AM  [main] 	Initializing main
+7:38:55 AM  [main] 	Windows version: 6.1 (build 7601) - Service Pack 1
+7:38:55 AM  [main] 	Xampp version: 1.7.7
+7:38:55 AM  [main] 	Control center version: 3.0.2 [ Compiled: Jul 21th 2011 - build #1 ]
+7:38:55 AM  [main] 	Running not as admin! This will work for all application stuff, but whenever you do
+7:38:55 AM  [main] 	something with services there will be a security dialogue! So think about running
+7:38:55 AM  [main] 	this application with administrator rights!
+7:38:55 AM  [main] 	Working with basedir: "c:\infotech\"
+7:38:55 AM  [main] 	Initializing moduls
+7:38:55 AM  [main] 	Starting check-timer
+7:38:56 AM  [apache] 	Starting apache app...
+7:38:57 AM  [apache] 	Status change detected: running
+7:38:58 AM  [mysql] 	Starting mysql app...
+7:38:58 AM  [mysql] 	Status change detected: running
+1:05:08 PM  [main] 	Deinitializing moduls
+1:05:08 PM  [main] 	Deinitializing main
+
+8:19:35 PM  [main] 	Initializing main
+8:19:35 PM  [main] 	Windows version: 6.1 (build 7601) - Service Pack 1
+8:19:35 PM  [main] 	Xampp version: 1.7.7
+8:19:35 PM  [main] 	Control center version: 3.0.2 [ Compiled: Jul 21th 2011 - build #1 ]
+8:19:35 PM  [main] 	Running not as admin! This will work for all application stuff, but whenever you do
+8:19:35 PM  [main] 	something with services there will be a security dialogue! So think about running
+8:19:35 PM  [main] 	this application with administrator rights!
+8:19:35 PM  [main] 	Working with basedir: "c:\infotech\"
+8:19:35 PM  [main] 	Initializing moduls
+8:19:35 PM  [main] 	Starting check-timer
+8:19:37 PM  [apache] 	Starting apache app...
+8:19:37 PM  [apache] 	Status change detected: running
+8:19:38 PM  [mysql] 	Starting mysql app...
+8:19:38 PM  [mysql] 	Status change detected: running
+10:00:28 PM  [main] 	Deinitializing moduls
+10:00:28 PM  [main] 	Deinitializing main
+
+8:10:07 PM  [main] 	Initializing main
+8:10:07 PM  [main] 	Windows version: 6.1 (build 7601) - Service Pack 1
+8:10:07 PM  [main] 	Xampp version: 1.7.7
+8:10:07 PM  [main] 	Control center version: 3.0.2 [ Compiled: Jul 21th 2011 - build #1 ]
+8:10:07 PM  [main] 	Running not as admin! This will work for all application stuff, but whenever you do
+8:10:07 PM  [main] 	something with services there will be a security dialogue! So think about running
+8:10:07 PM  [main] 	this application with administrator rights!
+8:10:07 PM  [main] 	Working with basedir: "c:\infotech\"
+8:10:07 PM  [main] 	Initializing moduls
+8:10:07 PM  [main] 	Starting check-timer
+8:10:09 PM  [apache] 	Starting apache app...
+8:10:09 PM  [apache] 	Status change detected: running
+8:10:10 PM  [mysql] 	Starting mysql app...
+8:10:10 PM  [mysql] 	Status change detected: running
+9:14:38 PM  [apache] 	Stopping apache (PID: 3412)
+9:14:38 PM  [apache] 	Stopping apache (PID: 5208)
+9:14:39 PM  [apache] 	Status change detected: stopped
+9:14:39 PM  [mysql] 	Stopping mysql (PID: 3272)
+9:14:39 PM  [mysql] 	Status change detected: stopped
+9:14:41 PM  [main] 	Deinitializing moduls
+9:14:41 PM  [main] 	Deinitializing main
+
+7:19:01 PM  [main] 	Initializing main
+7:19:01 PM  [main] 	Windows version: 6.1 (build 7601) - Service Pack 1
+7:19:01 PM  [main] 	Xampp version: 1.7.7
+7:19:01 PM  [main] 	Control center version: 3.0.2 [ Compiled: Jul 21th 2011 - build #1 ]
+7:19:01 PM  [main] 	Running not as admin! This will work for all application stuff, but whenever you do
+7:19:01 PM  [main] 	something with services there will be a security dialogue! So think about running
+7:19:01 PM  [main] 	this application with administrator rights!
+7:19:01 PM  [main] 	Working with basedir: "c:\infotech\"
+7:19:01 PM  [main] 	Initializing moduls
+7:19:01 PM  [main] 	Starting check-timer
+7:19:03 PM  [apache] 	Starting apache app...
+7:19:03 PM  [apache] 	Status change detected: running
+7:19:03 PM  [mysql] 	Starting mysql app...
+7:19:03 PM  [mysql] 	Status change detected: running
+7:38:07 PM  [apache] 	Stopping apache (PID: 1532)
+7:38:07 PM  [apache] 	Stopping apache (PID: 5672)
+7:38:08 PM  [apache] 	Status change detected: stopped
+7:38:08 PM  [apache] 	Starting apache app...
+7:38:09 PM  [apache] 	Status change detected: running
+11:36:13 PM  [apache] 	Stopping apache (PID: 5288)
+11:36:13 PM  [apache] 	Stopping apache (PID: 7136)
+11:36:13 PM  [apache] 	Status change detected: stopped
+11:36:15 PM  [mysql] 	Stopping mysql (PID: 4840)
+11:36:15 PM  [mysql] 	Status change detected: stopped
+11:36:16 PM  [apache] 	Starting apache app...
+11:36:16 PM  [apache] 	Status change detected: running
+11:36:16 PM  [mysql] 	Starting mysql app...
+11:36:16 PM  [mysql] 	Status change detected: running
+12:04:52 AM  [main] 	Deinitializing moduls
+12:04:52 AM  [main] 	Deinitializing main
+
+10:38:28 AM  [main] 	Initializing main
+10:38:28 AM  [main] 	Windows version: 6.1 (build 7601) - Service Pack 1
+10:38:28 AM  [main] 	Xampp version: 1.7.7
+10:38:28 AM  [main] 	Control center version: 3.0.2 [ Compiled: Jul 21th 2011 - build #1 ]
+10:38:28 AM  [main] 	Running not as admin! This will work for all application stuff, but whenever you do
+10:38:28 AM  [main] 	something with services there will be a security dialogue! So think about running
+10:38:28 AM  [main] 	this application with administrator rights!
+10:38:28 AM  [main] 	Working with basedir: "c:\infotech\"
+10:38:28 AM  [main] 	Initializing moduls
+10:38:28 AM  [apache] 	"c:\infotech\apache\bin\httpd.exe" seems to be running on port 80?
+10:38:28 AM  [apache] 	"c:\infotech\apache\bin\httpd.exe" seems to be running on port 443?
+10:38:28 AM  [mysql] 	"c:\infotech\mysql\bin\mysqld.exe" seems to be running on port 3306?
+10:38:28 AM  [main] 	Starting check-timer
+10:38:36 AM  [apache] 	Stopping apache (PID: 3232)
+10:38:36 AM  [apache] 	Stopping apache (PID: 3768)
+10:38:37 AM  [apache] 	Status change detected: stopped
+10:38:39 AM  [mysql] 	Stopping mysql (PID: 6496)
+10:38:39 AM  [mysql] 	Status change detected: stopped
+10:38:41 AM  [apache] 	Starting apache app...
+10:38:42 AM  [apache] 	Status change detected: running
+10:38:42 AM  [mysql] 	Starting mysql app...
+10:38:43 AM  [mysql] 	Status change detected: running
+9:13:49 PM  [main] 	Deinitializing moduls
+9:13:49 PM  [main] 	Deinitializing main
+
+10:29:58 AM  [main] 	Initializing main
+10:29:58 AM  [main] 	Windows version: 6.1 (build 7601) - Service Pack 1
+10:29:58 AM  [main] 	Xampp version: 1.7.7
+10:29:58 AM  [main] 	Control center version: 3.0.2 [ Compiled: Jul 21th 2011 - build #1 ]
+10:29:58 AM  [main] 	Running not as admin! This will work for all application stuff, but whenever you do
+10:29:58 AM  [main] 	something with services there will be a security dialogue! So think about running
+10:29:58 AM  [main] 	this application with administrator rights!
+10:29:58 AM  [main] 	Working with basedir: "c:\infotech\"
+10:29:58 AM  [main] 	Initializing moduls
+10:29:58 AM  [main] 	Starting check-timer
+10:30:00 AM  [apache] 	Starting apache app...
+10:30:00 AM  [apache] 	Status change detected: running
+10:30:01 AM  [mysql] 	Starting mysql app...
+10:30:02 AM  [mysql] 	Status change detected: running
+10:38:37 AM  [apache] 	Status change detected: stopped
+10:38:39 AM  [mysql] 	Status change detected: stopped
+10:38:41 AM  [apache] 	Status change detected: running
+10:38:42 AM  [mysql] 	Status change detected: running
+9:13:49 PM  [main] 	Deinitializing moduls
+9:13:49 PM  [main] 	Deinitializing main
+

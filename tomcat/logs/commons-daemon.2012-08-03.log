@@ -1,0 +1,5 @@
+[2012-08-03 14:14:44] [info]  Commons Daemon procrun (1.0.7.0 32-bit) started
+[2012-08-03 14:14:44] [error] Unable to open the Service Manager
+[2012-08-03 14:14:44] [error] Access is denied.
+[2012-08-03 14:14:44] [error] Commons Daemon procrun failed with exit value: 7 (Failed to )
+[2012-08-03 14:14:44] [error] Access is denied.

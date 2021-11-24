@@ -1,0 +1,364 @@
+html, body, h1, h2, h3, h4, ul, li {
+	margin: 0;
+	padding: 0;
+}
+h1 img {
+	display: block;
+}
+img {
+	border: 0;
+}
+a {
+	color: #464544;
+}
+a:hover {
+	color: #FFA405;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+body {
+	background: #E0D5B7 url(images/page_bg.jpg) repeat-x;
+	text-align: center;
+	font: 11px verdana, arial, sans-serif;
+	color: #74653D;
+	padding-bottom: 20px;
+	padding-top: 31px;
+}
+
+/** layout **/
+#wrapper {
+	text-align: left;
+	margin: auto;
+	width: 778px;
+  	position: relative;
+	
+  	  	
+}
+#logo {
+  background: url(images/header_1.jpg) no-repeat;
+  text-align: center;
+  color: #595959;
+  width: 250px;
+  height: 160px;
+  text-align: center;
+}
+#usuario {
+  font: 5px "arial narrow", arial, sans-serif;	
+  text-align: right;
+  margin-top: -35px;
+  margin-left: -40px;
+  width: 190px;
+  position: relative;
+  top: 130px;
+}
+#usuario h3{
+  font: bold 7px "arial narrow", arial, sans-serif;	
+}
+#usuario p.ini{
+  font: 7px "arial narrow", arial, sans-serif;	
+  text-align: center;
+  }
+#usuario p{
+  font: 15px "arial narrow", arial, sans-serif;	
+  text-align: right;
+  position: relative;
+  top: -10px;
+  }
+#logo h1 {
+  padding-top: 30px;
+  font: 24px "arial narrow", arial, sans-serif;
+}
+#logo p {
+  margin: 8px 25px 4px 25px;
+  border-top: 1px solid #B8B8B8;
+  border-bottom: 1px solid #B8B8B8;
+  padding: 3px;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+}
+#nav {
+  background: url(images/nav_left.jpg) repeat;
+  height: 410px;
+}
+#nav ul {
+  margin-left: 9px;
+  padding-left: 1px;
+  background: #2A2A2A;
+  position: relative;
+  top: 10px;
+}
+#nav li {
+  list-style: none;
+  font: 14px "arial narrow", arial, sans-serif;
+  border-top: 1px solid #959595;
+  padding: 7px 0 0 31px;
+  height: 35.5px;
+}
+#nav-left {
+  width: 178px;
+}
+#nav a {
+  color: #fff;
+  text-decoration: none;
+  border-left: 1px solid #959595;
+  padding-left: 10px;
+  display: block;
+  width: 90%;
+  padding: 5px 0 16px 18px;
+}
+#nav a:hover {
+  text-decoration: underline;
+}
+#nav .important {
+  border: none;
+  
+}
+#nav .important a {
+  color: #E9C379;
+}
+#booking {
+  background: #ffffff;
+  border: 1px solid #000000;
+  padding-bottom: 6px;
+  margin-bottom: 1.1em;
+  align: center;
+  top: -100px
+}
+#booking2 {
+  background: #f1f1f1; 
+  border: 1px solid #000000;
+  padding-bottom: 6px;
+  position: absolute;
+  left: 182px;
+  width: 590px;
+  height: 385px;
+  align: center;
+  top: 170px;
+  font-weight: normal;
+  font-size: 12px;
+}
+#booking2 h2 {
+  background: #545454;
+  border: 1px solid #000000;
+  height: 27px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 16px;
+  padding-left: 20px;
+  margin: 4px 4px 10px 4px;
+}
+#booking2 h3 {
+  position: absolute;
+  top: 10px;
+  left: 430px;	
+  color: #f1f1f1;
+  font-weight: normal;
+  font-size: 14px;
+}
+#booking2 th {
+  text-align: left; /* cedula nit etc */
+  padding-left: 20px;
+  padding-right: 10px;
+  font-weight: normal;
+  font-size: 12px;
+}
+#booking2 td {
+  text-align: left; /* cedula nit etc */
+  padding-left: 20px;
+  padding-right: 10px;
+  font-weight: normal;
+  font-size: 12px;
+}
+#booking2 tr {
+  text-align: left; /* cedula nit etc */
+  padding-left: 20px;
+  padding-right: 10px;
+  font-weight: normal;
+  font-size: 12px;
+}
+#booking2 select.textpeque {
+width: 55px;
+}
+#booking2 select.textmed {
+width: 155px;
+}
+#booking2 select.grande {
+width: 345px;
+}
+#booking2 select.mediano {
+width: 205px;
+}
+#booking2 td.submission {
+  text-align: right;
+}
+#booking2 input.largo {
+width: 342px;
+}
+#usuario {
+  font: 15px "arial narrow", arial, sans-serif;	
+  text-align: right;
+  margin-top: -35px;
+  margin-left: -25px;
+  width: 790px;
+  position: absolute;
+  top: 135px;
+}
+#usuario h3{
+  font: bold 17px "arial narrow", arial, sans-serif;	
+}
+#usuario p.ini{
+  font: 17px "arial narrow", arial, sans-serif;	
+  text-align: center;
+  }
+#news {
+  background: url(images/news_bg.jpg) repeat-y;
+  padding-left: 37px;
+  padding-right: 22px;
+  padding-bottom: 3px;
+  text-align: justify;
+}
+#news h2 {
+  font-size: 12px;
+  color: #BE8B06;
+}
+#news h3, #news p {
+  font-size: 11px;
+  margin: 1em 8px 1em 0;
+}
+#news a {
+  color: #74653D;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#news a:hover {
+  color: #38301A;
+}
+#news .more {
+  font-size: 9px;
+}
+#news .hr-dots {
+  background: center url(images/dots.gif) repeat-x;
+  height: 10px;
+}
+
+#support {
+  background: url(images/support.jpg) no-repeat;
+  padding: 1px;
+  height: 97px;
+  color: #1A1A18;
+}
+#support p {
+  margin: 0.7em 2.6em;
+}
+#right {
+/*   */
+  float: right;
+  width: 391px;
+  top: 210px;
+  padding-right: 0px;
+}
+#right h2 {
+  font: 18px arial, sans-serif;
+  border: 1px solid #ffffff;
+  margin-bottom: 10px;
+  color: #ffffff;
+  height: 27px;
+  background: #939393 ; 
+  padding-left: 20px;
+  padding-top: 5px;
+}
+#right th {
+  text-align: left; /* cedula nit etc */
+  padding-left: 20px;
+  padding-right: 10px;
+  font-weight: normal;
+  font-size: 12px;
+}
+#right td {
+  text-align: left; /* cedula nit etc */
+  padding-left: 20px;
+  padding-right: 10px;
+  font-weight: normal;
+  font-size: 12px;
+}
+#right tr {
+  text-align: left; /* cedula nit etc */
+  padding-left: 20px;
+  padding-right: 10px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#welcome {
+  margin-right: 20px;
+}
+#profile {
+  margin-right: 16px;
+}
+#right .left {
+  margin-right: 18px;
+}
+#right .more {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#corp, #indu {
+  float: left;
+  width: 49%;
+}
+#corp {
+  margin-right: 1%;
+}
+#footer {
+background: url(images/footerline.gif) no-repeat;
+  	
+}
+#footer a{
+font-size: 15px;
+color: white;
+font-weight: bold;
+text-align: right;
+text-decoration: none;
+}
+#exploracion {
+  border: 1px solid #000000;
+  height: 27px;
+  line-height: 27px;
+  color: #ffffff;
+  height: 27px;
+  width: 96%; 	
+  line-height: 27px;
+  background: #545454;
+  font-weight: normal;
+  font-size: 16px;
+  padding-left: 10px;
+  margin: 4px 4px 10px 4px;
+  valign: middle;
+  position: absolute;
+  top: 355px;
+  left: 0px;	
+ }
+#exploracion select {
+width: 100px;
+}
+#exploracion input {
+position: relative;
+top: 4px;
+}
+#exploracion input.busqueda {
+position: relative;
+top: 0px;
+width: 150px;
+}

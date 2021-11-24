@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+input{
+	font: 9px verdana, arial, sans-serif;
+	color: #000055;
+}
+select{
+	font: 9px verdana, arial, sans-serif;
+	color: #000055;
+	width: 120px;
+}

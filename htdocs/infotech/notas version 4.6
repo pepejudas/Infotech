@@ -1,0 +1,166 @@
+cambios para la nueva version infotech 4.6
+
+ini_set('display_errors', 1);//linea para mostrar los errores en cada script php sin modificar php.ini
+
+-- dejar en cada listado de todos los formularios los datos de cada sucursal 
+cambiar a mayusculas todo el texto ingresado al sistema
+
+-- falta ajustar las sentencias sql para los que los listados solo muestren la gente de cada ciudad
+-- falta verificar que todos los listados muestren solo los resultados de la ciuudad respectiva de consulta y no otras adicionales
+--tenemos serio lio con los escoltas porque tienen que salir unicamente en la ciudad de origen y en los clientes no se muestran los indicados
+--faltan formulario de facturacion
+--poner ventana javascript para eliminar condiciones de instalacion
+--verificar cuando se cambia de formulario y siguen cargandose los municipios de cada depto
+--poner boton de reparacion de toda la base de datos dentro del menu sistema 				
+--relacionar las dotaciones entragadas con las existencias del almacen evitando entregar elementos que no haya en inventario
+--boton actualizar de dotacion no funciona
+--formulario de dootacion no sale sino el apellido
+ 
+--formulario productos botones de exploracion
+--generar formato de ingreso de dotacion al sistema     //proxima version
+--verificar formulario ordenes de servicio
+generar formato de recibido de correspondencia          //proxima version
+--formulario de sucursales salen variables todavia
+
+
+Nota para proxima version:
+--el formulario de facturacion queda pendiente hasta la proxima version de infotech debido a la urgencia de sacarlo cuanto antes al mercado,
+--con todas sus arandelas.
+--agregar formulario de aspirantes con informacion basica para luego llenar la de personal activo al ser admitido.
+agregar panel de documentos rapidos a la derecha de la pantalla para la proxima version de infotech 4.7 by xsitec company
+
+--nota seguridad para agregar la funcionalidad completa de seguridad descomentar las lineas de require en:
+-- el script version
+-- funcion cardll en funciones2.php
+ 
+ --vamos en corregir los turnos de vigilntes en control por cliente el valor de cada variable post es cedulad1 o cedulan1 falta verficar
+ -- que personas tienen turnos alli y efectuar actualizacion por cada uno de ellos en cada dia diurno y nocturno. 
+ 
+//modificaciones adicionales solicitadas por seguridad super
+ 
+-- calidad clientes
+-- modalidad del servicio
+
+--//fijo con arma letal
+--//fijo con arma no letal
+--//movil con arma letal
+--//movil con arma no letal
+
+-- dias de trabajo 
+--//lunes a domingo con refuerzo fin de semana y festivo
+
+-- cambiar turnos por 
+--//horas dia prestadas
+--//cambiar 12 horas nocturnas por 12 horas mixtas
+--//hora diurna
+--//hora nocturna
+
+--//cambiar liquidacion del iva por antes de iva.
+--//poner antes de iva
+	
+--//tipo de arma diferenciar letal no letal
+--//en letal cargar el listado actual
+
+--ingresar controlador electromagnetico de rondas a listado de elementos tecnocolicos
+--ingresar controlador electromagnetico de supervisoria
+
+--listado de chequeo documentos se dividio en tres partes
+--primero comprobacion de requisitos de la empresa
+--docs legales, tecnicos y otros con vigencias
+
+-- productos boton salir no funciona
+
+--personal activo eps
+--agregar sanidad militar
+
+
+tener en cuenta las modificaciones en los perfile por organigrama modificado
+cambiar parametros del banco a crear cuentas de nomina 
+
+
+dentro de la induccion decirles a los vigilantes que deben reportarse 
+diariamente y firmar las planillas de los puestos de trabajo
+
+--agregar alerta de turnos ingresados respecto a los que se deben ingresar para super en radioperacion y en el control de turnos por cliente
+--agregar liquidacion de nomina para los turnos realizados en el mes seguridad super
+
+-- mostrar solo usuarios de cada sucursal en usuarios
+-- verificar listados de productos existencias de acuerdo a la nueva politica del sistema
+-- ELIMINAR DE EXISTENCIAS NO SIRVE 
+--cambiar los mensajes de javascript ponerlos siempre al final de la pagina para que no cambien la estructura de cada formulario
+
+
+-- quitar svu=ysp clientes
+-- crear paz y salvo de almacen
+-- falta generar encabezados de documentos exportados a excel, verificar el orden de los datos exportados con los encabezados
+
+generar reporte de inventario de los clientes respecto de las necesidades y condiciones de instalacion
+crear nuevo formulario de registro de clientes potenciales con posibilidad de seguimiento.
+
+dejar consecutivo de armas y clientes
+--dejar posibilidad de exportar todas las tablas
+dejar centrar datos de armas en los listados
+en listado de armas dejar ver porte o tenencia 
+hacer formulario de cotizacion de servicio.
+hace falta el campo del correo electronico en clientes y ofertas comerciales, y condiciones de instalacion 
+-- revisar form ofertas sin arma con doc de necesidades coincidencia
+-- cambiar a la clase de testexcelxml que si funciona sobre win server2003
+-- fgv000 codigo del formato de seguimiento de ofertas comerciales 
+
+servicio, descripcion, con arma o sin arma, 
+
+
+
+agregar en clientes polizas de cada cliente
+garantias unicas 
+
+
+
+Verificar el ingreso de las fotos infotech linux portatil
+--verificar el ingreso de novedades operativas a historial desde la radioperacion
+
+
+
+voy en ingresar el campo de la base de datos nos nuevo  o usado para implementar en el formulario controlinvent3 y dotacion de personal
+tambien implementado el boton de generar backup en archivo sql desde sistema
+
+falta 
+--crear dotacion por clientes donde esten los formularios de armas y todos los corotos que se le asigne a cada uno
+--sacar listado de productos para usados
+--poner cantidad disponible nuevo y usado para cuando se va a entregar nuevo dotacion.
+--crear una funcion que haga la verificacion de los permisos por formulario y remmplazar en cada script
+eliminar los botones de cargar en lo posible
+--falta la gestion de proveedores
+
+
+--modificar script radioperacion3 para evitar que se ingresen turnos a personal equivocado cuando se ingrese nueva persona justo en el
+momento del ingreso de turnos.
+
+--modificaciones voy en validar la infromacion ingresada al formulario ordenes de servicio con javascript y sexyalertas
+
+--agregar sexyalertas a armamento
+
+--agregar un panel de control de permisos personalizados para cada usuario, al momento de crearlos.
+cambiar colmedica por aliansalud
+poner ventana de seleccion de cliente personalretirado al reingresar
+--agregar la referencia en la descripcion del producto al entregar dotaciones
+poner las administradoras de riesgos en tablas dentro de la db
+--solucionar el problema de los relevantes para las diferentes suscursales
+--agregar permiso de ingresar usuarios a tabla mysql.user a persona que tenga acceso a permisos escritura
+--verificar las tablas que se requieren para usar el formulario permisos
+--verificar los archivos exportados a excel
+verificar el boton de todos los turnos del control individual controlturnos3.php
+--restringir usuarios de sucursales no puedan acceder como nivel central
+revisar el informe planillas.php, genera alguna error de deprecated function
+agregar algo a la funcion validar de cada formulario porque los permisos se suman al momento de agregarlos en mysql, usando los botones
+de cada formulario
+agregar una restriccion cuando se vaya a eliminar un registro de movimiento de productos para que no se permita eliminar una vez se haya hecho
+entrega de producto de esa factura
+
+estoy haciendo funcion de todosrelevantes que devuelve armadas las celdas de relevantes para todos los cilentes
+
+jairo:
+ropa nueva y usada en misma dotacion.
+
+
+hacer una verificacion exaustiva de los datos ingresados al sistema desde javascript para todos los formularios

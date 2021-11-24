@@ -1,0 +1,35 @@
+BEGIN;
+#permisos por defecto para usuario infotechuser
+GRANT SELECT ON relacional.sucursales TO "infotechuser"@"localhost" IDENTIFIED BY "20001015006";
+GRANT SELECT ON relacional.usuarios TO "infotechuser"@"localhost";
+GRANT SELECT ON relacional.permisos TO "infotechuser"@"localhost";
+GRANT SELECT ON relacional.modulos TO "infotechuser"@"localhost";
+GRANT SELECT ON mysql.user TO "infotechuser"@"localhost";
+
+#crear nuevo usuario administrador para supervisar todo el sistema mysql
+GRANT SELECT, INSERT, UPDATE, DELETE, GRANT OPTION ON mysql.user TO "admin"@"localhost" IDENTIFIED BY "xxxx";
+UPDATE `mysql`.`user` SET `Reload_priv` =  'Y' WHERE `user`.`User` =  'admin';
+GRANT SELECT, INSERT, UPDATE, DELETE, GRANT OPTION ON relacional.* TO "admin"@"localhost";
+
+#insertar usuario relacional
+INSERT INTO `relacional`.`usuarios` (`id` ,`nombres` ,`apellidos` ,`cargo` ,`usuario` ,`contrasena` ,`intentos` ,`sucursal`)
+VALUES (1 , 'Administrador', 'Administrador', '1', 'admin', PASSWORD( 'xxxx' ) , '1', '2');
+INSERT INTO `relacional`.`permisos` (`id` ,`idmodulo` ,`idusuario` ,`tipopermiso`) VALUES (NULL , '0', '1', '1'), (NULL , '48', '1', '2'), (NULL , '57', '1', '2');
+
+GRANT SELECT ON relacional.usuarios TO infotechuser@'localhost';
+GRANT SELECT ON relacional.permisos TO infotechuser@'localhost';
+GRANT INSERT ON relacional.permisos TO infotechuser@'localhost';
+GRANT UPDATE ON relacional.permisos TO infotechuser@'localhost';
+GRANT SELECT ON relacional.modulos TO infotechuser@'localhost';
+GRANT SELECT ON relacional.tablamodulo TO infotechuser@'localhost';
+GRANT SELECT ON relacional.grupoinfo TO infotechuser@'localhost';
+GRANT SELECT ON relacional.parametros TO infotechuser@'localhost';
+GRANT GRANT OPTION ON relacional.parametros TO infotechuser@'localhost';
+GRANT UPDATE ON mysql.* TO infotechuser@'localhost';
+GRANT SELECT ON mysql.user TO infotechuser@'localhost';
+GRANT INSERT ON mysql.user TO infotechuser@'localhost';
+GRANT DELETE ON mysql.user TO infotechuser@'localhost';
+GRANT SELECT ON relacional.modulos TO infotechuser@'localhost';
+
+FLUSH PRIVILEGES;
+COMMIT;

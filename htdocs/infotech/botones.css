@@ -1,0 +1,89 @@
+@CHARSET "ISO-8859-1";
+@font-face {
+    font-family: "piru";
+    src: url(fuentes/pirulen.ttf) format("truetype");
+}
+@font-face {
+    font-family: "walk";
+    src: url(fuentes/walk.ttf) format("truetype");
+}
+input[type=submit], input[type=button], button{
+        padding-left:10px;
+        padding-right:10px;
+	font-family: "walk", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+        background: none;
+        border:none;
+        color:#ddd;
+        text-shadow: #000 1px 1px 1px;
+}
+input[type=submit]:hover, input[type=button]:hover, button:hover {
+    background-image:url(imagenes/semi1.png);
+}
+input.botoinglogin{
+    margin-top:2px;
+    color:#333;
+    text-shadow: #ccc 1px 1px 1px;
+}
+input.botoinglogin:hover{
+    color:#fff;
+    background:#ccc;
+    text-shadow: #111 1px 1px 1px;
+}
+.mensajeBienv{
+    top:30px;
+    position:absolute;
+    left:50px;
+    border-bottom:solid 1px #999999;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align:center;
+    color: #FFF;
+    font-family: "piru", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size:13px;
+    font-style: italic;
+    text-shadow: #000 1px 1px 1px;
+}
+.mensajeBienv2{
+    top:55px;
+    position:absolute;
+    left:50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align:center;
+    color: #FFF;
+    font-family: "piru", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size:9px;
+    font-style: italic;
+    text-shadow: #000 1px 1px 1px;
+}
+td.arriba{
+	border-bottom:solid 1px #999999;
+        padding-top: 5px;
+        height:120px;
+        padding-bottom: 5px;
+        text-align:center;
+        color: #FFF;
+        font-family: "piru", Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size:15px;
+        font-style: italic;
+        text-shadow: #000 1px 1px 1px;
+}
+input.busqueda{
+	border:none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:#bbbbbb;
+	}
+select.busqueda{
+	border:none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:#bbbbbb;
+	}
+#tabladocs input[type=submit], input[type=button], button{
+background:#000;
+}
+.tabladocs input{
+    background: #999;
+}
